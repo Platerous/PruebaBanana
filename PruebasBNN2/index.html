@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNN Ready | The Shift Already Happened</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+    <div id="custom-cursor"></div>
+    <div id="cursor-follower"></div>
+    <div id="canvas-container"></div>
+
+    <!-- Menú de Navegación Premium -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="logo-wrapper">
+                <img src="LogoBNN.svg" alt="BNN Logo" class="nav-logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item" style="--gradient-from: #a855f7; --gradient-to: #ea51ff;">
+                    <a href="#hero">
+                        <span class="icon"><i class="fa-regular fa-house"></i></span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+                <li class="nav-item" style="--gradient-from: #ffdd00; --gradient-to: #f97316;">
+                    <a href="#enfoque">
+                        <span class="icon"><i class="fa-regular fa-user"></i></span>
+                        <span class="title">Enfoque</span>
+                    </a>
+                </li>
+                <li class="nav-item" style="--gradient-from: #f97316; --gradient-to: #f434e2;">
+                    <a href="#servicios">
+                        <span class="icon"><i class="fa-regular fa-grid-2"></i></span>
+                        <span class="title">Servicios</span>
+                    </a>
+                </li>
+                <li class="nav-item" style="--gradient-from: #a855f7; --gradient-to: #ffdd00;">
+                    <a href="#portafolio">
+                        <span class="icon"><i class="fa-regular fa-image"></i></span>
+                        <span class="title">Portafolio</span>
+                    </a>
+                </li>
+                <li class="nav-item" style="--gradient-from: #ffdd00; --gradient-to: #ea51ff;">
+                    <a href="#contacto">
+                        <span class="icon"><i class="fa-regular fa-paper-plane"></i></span>
+                        <span class="title">Contacto</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- 1. HERO -->
+        <section class="section hero" id="hero">
+            <div class="container">
+                <span class="subheadline">Liderar el ahora, no inventar realidades.</span>
+                <h1 class="headline-xl">THE SHIFT <br>ALREADY <span class="accent-text">HAPPENED</span></h1>
+                <p class="copy-main">
+                    "Las marcas no están frente a un futuro lejano; están atrapadas en un presente que cambió más rápido
+                    de lo que pudieron adaptarse."
+                </p>
+                <a href="#contacto" class="cta-btn">Descubre cómo liderar</a>
+            </div>
+        </section>
+
+        <!-- 2. EL ENFOQUE BNN -->
+        <section class="section" id="enfoque">
+            <div class="container grid-2">
+                <div class="content-block">
+                    <h2 class="headline-l">HUMAN <br>TO <br><span class="accent-text">HUMAN</span></h2>
+                    <span class="subheadline">Conectamos marcas con personas</span>
+                    <p class="copy-main">
+                        El marketing tradicional se olvidó de hablar con personas. Nos sumergimos en la cultura para
+                        encontrar la verdad detrás del perfil demográfico.
+                    </p>
+                </div>
+                <div class="glass-card">
+                    <div class="pilar">
+                        <h3>01. Observación Cultural</h3>
+                        <p>Leemos las señales débiles donde nacen los cambios.</p>
+                    </div>
+                    <div class="pilar">
+                        <h3>02. Conexión Auténtica</h3>
+                        <p>Entramos en los mundos de pertenencia con respeto.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="servicios">
+            <div class="container services-container">
+                <div class="services-visual">
+                    <div class="side-block top"></div>
+                    <div class="side-block bottom"></div>
+                    <div class="side-block left"></div>
+                    <div class="side-block right"></div>
+                    <img src="SC_M.png" alt="Ecosistema Cultural" class="sc-image">
+                </div>
+                <div class="services-grid">
+                    <div class="glass-card service-card">
+                        <h3>CULTURAL Insight</h3>
+                        <p>Investigación etnográfica + datos para detectar señales tempranas.</p>
+                    </div>
+                    <div class="glass-card service-card">
+                        <h3>Tensiones Reales</h3>
+                        <p>Identificamos el conflicto emocional que tu marca puede abordar genuinamente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. PORTAFOLIO -->
+        <section class="section portfolio-section" id="portafolio">
+            <div class="container" style="text-align: center; margin-bottom: 20rem;">
+                <h2 class="headline-l">CUANDO LA <span class="accent-text">CULTURA</span> <br>ES EL MEDIO</h2>
+                <p class="subheadline">Personas y emociones en el centro</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-webgl-image>
+                    <div class="project-details">
+                        <span class="project-tag">CASO: TREND-SETTER</span>
+                        <h3 class="headline-l">NIKE STREETRULES</h3>
+                    </div>
+                    <video autoplay muted loop playsinline class="hidden-media">
+                        <source src="video1b.webm" type="video/webm">
+                        <source src="video1.mp4" type="video/mp4">
+                    </video>
+                    <img src="https://images.unsplash.com/photo-1542332213-9b5a5a3fad35?q=80&w=1200" alt="Nike"
+                        crossorigin="anonymous" class="hidden-media">
+                </div>
+
+                <div class="portfolio-item" data-webgl-image>
+                    <div class="project-details">
+                        <span class="project-tag">CASO: GLOBAL MUSIC</span>
+                        <h3 class="headline-l">RED BULL UNPLUGGED</h3>
+                    </div>
+                    <video autoplay muted loop playsinline class="hidden-media">
+                        <source src="video1b.webm" type="video/webm">
+                        <source src="video1.mp4" type="video/mp4">
+                    </video>
+                    <img src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=1200" alt="Music"
+                        crossorigin="anonymous" class="hidden-media">
+                </div>
+
+                <div class="portfolio-item" data-webgl-image>
+                    <div class="project-details">
+                        <span class="project-tag">CASO: CONNECTIVITY</span>
+                        <h3 class="headline-l">SAMSUNG ME-FIVE</h3>
+                    </div>
+                    <video autoplay muted loop playsinline class="hidden-media">
+                        <source src="video1b.webm" type="video/webm">
+                        <source src="video1.mp4" type="video/mp4">
+                    </video>
+                    <img src="https://images.unsplash.com/photo-1548041417-74070a7b45cc?q=80&w=1200" alt="Samsung"
+                        crossorigin="anonymous" class="hidden-media">
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. NOSOTROS -->
+        <section class="section" id="nosotros">
+            <div class="container">
+                <h2 class="headline-l">WE ARE <br><span class="accent-text">READY</span></h2>
+                <div class="grid-2">
+                    <p class="copy-main">Observers. Narrators. Partners. Entendemos el presente para dominar el mañana.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIDEO EXPANSION SECTION (NEW) -->
+        <section class="expansion-section" id="agency-life">
+            <div class="expansion-sticky">
+                <div class="expansion-bg"></div>
+                <div class="expansion-media-wrapper">
+                    <video src="video1.mp4" autoplay muted loop playsinline class="expansion-video"></video>
+                    <div class="expansion-overlay"></div>
+                </div>
+                <div class="expansion-text-container">
+                    <h2 class="expansion-title headline-l left">OUR</h2>
+                    <h2 class="expansion-title headline-l right">PEOPLE</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CONTACTO -->
+        <section class="section" id="contacto">
+            <div class="container grid-2">
+                <div>
+                    <h2 class="headline-l">LET'S READ THE <br><span class="accent-text">SIGNALS</span></h2>
+                    <p class="subheadline">Own the Moment</p>
+                </div>
+                <div class="glass-card">
+                    <form class="contact-form">
+                        <input type="text" placeholder="Nombre completo">
+                        <input type="email" placeholder="Correo electrónico">
+                        <select>
+                            <option>Entorno: Gaming</option>
+                            <option>Entorno: Música</option>
+                            <option>Entorno: Moda</option>
+                        </select>
+                        <button type="submit" class="cta-btn"
+                            style="width: 100%; border-color: var(--primary); color: var(--primary);">Enviar
+                            Señal</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 5rem 2rem; text-align: center; border-top: 1px solid rgba(255,255,255,0.05);">
+        <p style="opacity: 0.3; font-size: 0.7rem; letter-spacing: 5px;">BNN AGENCY © 2026 // READY TO SHIFT</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
